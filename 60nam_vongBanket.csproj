@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9ED8C260-68A0-46E5-8A34-AB399A7460C1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>_60nam_vongBanket</RootNamespace>
+    <AssemblyName>60nam_vongBanket</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data.cs" />
+    <Compile Include="frm__Control.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm__Control.Designer.cs">
+      <DependentUpon>frm__Control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm__introRound01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm__introRound01.Designer.cs">
+      <DependentUpon>frm__introRound01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm__introRound02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm__introRound02.Designer.cs">
+      <DependentUpon>frm__introRound02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm__introRound03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm__introRound03.Designer.cs">
+      <DependentUpon>frm__introRound03.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm__Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm__Main.Designer.cs">
+      <DependentUpon>frm__Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm__round02_showGoiCau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm__round02_showGoiCau.Designer.cs">
+      <DependentUpon>frm__round02_showGoiCau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm__round_01_Questionnaire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm__round_01_Questionnaire.Designer.cs">
+      <DependentUpon>frm__round_01_Questionnaire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm__round_01_showQuestions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm__round_01_showQuestions.Designer.cs">
+      <DependentUpon>frm__round_01_showQuestions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm__round_01_showRules.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm__round_01_showRules.Designer.cs">
+      <DependentUpon>frm__round_01_showRules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm__round_02_Questionnaire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm__round_02_Questionnaire.Designer.cs">
+      <DependentUpon>frm__round_02_Questionnaire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm__round_02_showQuestions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm__round_02_showQuestions.Designer.cs">
+      <DependentUpon>frm__round_02_showQuestions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm__round_02_showRules.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm__round_02_showRules.Designer.cs">
+      <DependentUpon>frm__round_02_showRules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm__round_03_Questionnaire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm__round_03_Questionnaire.Designer.cs">
+      <DependentUpon>frm__round_03_Questionnaire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm__round_03_showQuestions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm__round_03_showQuestions.Designer.cs">
+      <DependentUpon>frm__round_03_showQuestions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm__round_03_showRules.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm__round_03_showRules.Designer.cs">
+      <DependentUpon>frm__round_03_showRules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm__Control.resx">
+      <DependentUpon>frm__Control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm__introRound01.resx">
+      <DependentUpon>frm__introRound01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm__introRound02.resx">
+      <DependentUpon>frm__introRound02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm__introRound03.resx">
+      <DependentUpon>frm__introRound03.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm__Main.resx">
+      <DependentUpon>frm__Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm__round02_showGoiCau.resx">
+      <DependentUpon>frm__round02_showGoiCau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm__round_01_Questionnaire.resx">
+      <DependentUpon>frm__round_01_Questionnaire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm__round_01_showQuestions.resx">
+      <DependentUpon>frm__round_01_showQuestions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm__round_01_showRules.resx">
+      <DependentUpon>frm__round_01_showRules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm__round_02_Questionnaire.resx">
+      <DependentUpon>frm__round_02_Questionnaire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm__round_02_showQuestions.resx">
+      <DependentUpon>frm__round_02_showQuestions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm__round_02_showRules.resx">
+      <DependentUpon>frm__round_02_showRules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm__round_03_Questionnaire.resx">
+      <DependentUpon>frm__round_03_Questionnaire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm__round_03_showQuestions.resx">
+      <DependentUpon>frm__round_03_showQuestions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm__round_03_showRules.resx">
+      <DependentUpon>frm__round_03_showRules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\BangCanbovienchuc\round01_goi01.txt" />
+    <Content Include="Resources\BangCanbovienchuc\round01_goi02.txt" />
+    <Content Include="Resources\BangCanbovienchuc\round01_goi03.txt" />
+    <Content Include="Resources\BangCanbovienchuc\round01_goi04.txt" />
+    <Content Include="Resources\BangCanbovienchuc\Round_02_Questions_10.txt" />
+    <Content Include="Resources\BangCanbovienchuc\Round_02_Questions_6.txt" />
+    <Content Include="Resources\BangCanbovienchuc\Round_03_Questions.txt" />
+    <Content Include="Resources\BangCanbovienchuc\Round_04_Questions.txt" />
+    <Content Include="Resources\BangSinhvien\Round_03_Questions.txt" />
+    <Content Include="Resources\BangSinhvien\Round_04_Questions.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\design\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
